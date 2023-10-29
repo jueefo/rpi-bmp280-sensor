@@ -5,10 +5,6 @@ import bme280
 import time
 from datetime import datetime
 
-"""
-pip install smbus2
-pip install rpi.bme280
-"""
 
 # Initialize argument parser
 parser = argparse.ArgumentParser()
@@ -41,11 +37,6 @@ def get_sensor_data():
         print(f"Error reading sensor data: {e}")
         return None, None
 
-
-# # Sensing runtime in seconds
-# runtime = 10
-# # Polling interval in seconds
-# interval = 1
 
 # Start the run
 start_time = time.time()
