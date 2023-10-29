@@ -10,7 +10,7 @@ git clone https://github.com/jueefo/rpi-bmp280-sensor
 ```
 2. Navigate to the project's root directory:
 ```bash
-cd raspberry-pi-sensor-reader
+cd rpi-bmp280-sensor
 ```
 Install the necessary dependencies using the requirements.txt file:
 ```bash
