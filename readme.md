@@ -1,6 +1,6 @@
 # Raspberry Pi Sensor Reader
 
-Raspberry Pi Sensor Reader is a Python program that reads temperature and air pressure data from a BMP280 sensor and blinks an LED. You can customize the measurement interval and runtime using command-line parameters.
+Raspberry Pi Sensor Reader is a Python program that reads temperature and air pressure data from a BMP280 sensor and blinks an LED. If using BME280 sensor, also humidity is read. You can customize the measurement interval and runtime using command-line parameters.
 ## Installation
 
 1. Clone this Git repository to your Raspberry Pi device:
